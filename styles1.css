@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+        /*max-width:960px;
+        margin:0 auto;*/
+}
+
+.banner{
+    position:relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    background: hsl(39, 100%, 50%);
+    color: white;
+    padding: 30px;
+    position:absolute;
+    left:0;
+    top: 30%;
+}
+.banner .welcome h2{
+    font-size: 74px;
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
